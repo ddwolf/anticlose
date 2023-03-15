@@ -11,10 +11,7 @@
 			"matches": [
 				"*://blog.csdn.net/*"
 			],
-			"js": [
-				"jquery.compressed.js",
-				"content_script.js"
-			],
+			"js": [			],
 			"css": [
 				"content.css"
 			]
