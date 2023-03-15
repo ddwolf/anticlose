@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "AntiClose",
+	"description": "Remove barriers when using the web",
+	"version": "0.0.1",
+	"icons": {
+		"48": "icons/icon.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://blog.csdn.net/*"
+			],
+			"js": [
+				"jquery.compressed.js",
+				"content_script.js"
+			],
+			"css": [
+				"content.css"
+			]
+		}
+	],
+	"permissions": [
+		"activeTab",
+		"tabs"
+	]
+}
