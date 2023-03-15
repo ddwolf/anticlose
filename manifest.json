@@ -1,5 +1,5 @@
 {
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"name": "AntiClose",
 	"description": "Remove barriers when using the web",
 	"version": "0.0.1",
@@ -11,7 +11,7 @@
 			"matches": [
 				"*://blog.csdn.net/*"
 			],
-			"js": [			],
+			"js": [],
 			"css": [
 				"content.css"
 			]
