@@ -1,10 +1,10 @@
 .hljs-button.signin::after {
-    content: '无需登录即可复制，单击即可选中';
+    content: '无需登录即可复制';
     text-decoration: underline;
     text-decoration-color: green;
     color: white;
 }
 
 #content_views pre code {
-    user-select:all;
+    user-select:text;
 }
