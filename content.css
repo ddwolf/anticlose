@@ -5,6 +5,6 @@
     color: white;
 }
 
-#content_views pre .hljs {
+#content_views pre code {
     user-select:all;
 }
