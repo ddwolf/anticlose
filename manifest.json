@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "AntiClose",
 	"description": "Remove barriers when using the web",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"icons": {
 		"48": "icons/icon.png"
 	},
